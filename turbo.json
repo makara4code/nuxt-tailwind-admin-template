@@ -1,0 +1,20 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": ["**/.env.*local"],
+  "pipeline": {
+    "build": {
+      "outputs": [".nuxt/**", "!.nuxt/content-cache/**"]
+    },
+    "analyze": {
+      "outputs": [".nuxt/**", "!.nuxt/content-cache/**"]
+    },
+    "generate": {
+      "cache": false
+    },
+    "lint": {},
+    "dev": {
+      "cache": false,
+      "persistent": true
+    }
+  }
+}
