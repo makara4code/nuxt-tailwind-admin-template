@@ -1,0 +1,13 @@
+{
+    "name": "tailwind-config",
+    "version": "0.1.0",
+    "main": "index.js",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "lint": "eslint ."
+    },
+    "dependencies": {
+        "eslint-config-custom": "workspace:*"
+    }
+}
